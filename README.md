@@ -1,5 +1,5 @@
 # Shot Reduction in ADAPT-VQE via Reused Pauli Measurements and Variance-Based Shot Allocation
-
+![Schematic](/src/schematic-main.jpg)
 ## Introduction
 This repository contains an implementation of the Shot-Optimized ADAPT-VQE protocol, designed to minimize the number of measurements (shots) needed in Variational Quantum Eigensolver (VQE) simulations. By reusing Pauli measurements and applying variance-based shot allocation, the method improves computational efficiency and optimizes resource usage in quantum simulations.
 
