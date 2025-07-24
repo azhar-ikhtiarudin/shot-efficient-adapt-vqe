@@ -27,10 +27,12 @@ python example_h2_qe_pool.py
 ```
 The provided examples can be customized to use different operator pools or molecules, including custom Hamiltonians. Additionally, a separate script is also provided to analyze the Pauli strings between the Hamiltonian and the gradient observable for H₂.
 
-## Code References
+## References
 
 The code structure for the ADAPT-VQE implementation in this repository is based on [Ramoa et al.'s code](https://github.com/mafaldaramoa/ceo-adapt-vqe), extended to include shot-based calculations using [Qiskit Sampler and Estimator](https://github.com/Qiskit/qiskit), as well as additional methods developed in this work.
 
 The on-the-fly variance calculation was adapted from [Leung et al.'s code](https://github.com/LeungSamWai/OptimizingMeasurement), with modifications to generalize it for an arbitrary N-qubit system and to integrate it with the ADAPT-VQE protocol.
 
-For detailed publication references, see the bibliography in the [main paper](https://#).
+For detailed publication references, see the bibliography in the paper:
+> **Shot-Efficient ADAPT-VQE via Reused Pauli Measurements and Variance-Based Shot Allocation**  
+> ArXiv: https://arxiv.org/abs/2507.16879
