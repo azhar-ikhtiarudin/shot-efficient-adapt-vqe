@@ -37,7 +37,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 """
 
 import warnings
-from numpy import (asarray, sqrt, Inf)
+from numpy import asarray, sqrt, inf as Inf
 import numpy as np
 
 try:
